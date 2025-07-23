@@ -1,0 +1,38 @@
+{
+  "name": "redwood-pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cleanArbTransaction": "ts-node cleaning/cleanArbTransaction.ts",
+    "cleanArbOpportunity": "ts-node cleaning/cleanArbOpportunity.ts",
+    "cleanArbOpportunityHistory": "ts-node cleaning/cleanArbOpportunityHistory.ts",
+    "cleanBTSCoinInfo": "ts-node cleaning/cleanBTSCoinInfo.ts",
+    "cleanBTSTransaction": "ts-node cleaning/cleanBTSTransaction.ts",
+    "cleanCoinPurchased": "ts-node cleaning/cleanCoinPurchased.ts",
+    "cleanUser": "ts-node cleaning/cleanUser.ts",
+    "start": "ts-node server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.22",
+    "@mastra/pg": "^0.12.1",
+    "axios": "^1.10.0",
+    "axios-retry": "^4.5.0",
+    "decimal.js": "^10.5.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "p-limit": "^6.2.0",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "@types/pg": "^8.15.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
