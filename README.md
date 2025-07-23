@@ -18,13 +18,13 @@ Contains the bot performance report across three pages:
 
 Each has a table that contains links that redirect users to the corresponding Arb Info or BTS Info dashboards, filtered by id (for Arb) or tokenAddress (for Sniper). These destination dashboards are in separate reports for restricted access.
 
-### Arb Info
+### Arb Info Dashboard
 
 Link: https://lookerstudio.google.com/reporting/b646d0f7-7ca6-4929-8b8d-d2c60bffe015
 
 Description: Provides detailed information on a specific arbitrage transaction selected by the user from the Bot Dashboard.
 
-### BTS Info
+### BTS Info Dashboard
 
 Link: https://lookerstudio.google.com/reporting/e28e15dd-18ae-4d53-980d-4864d71f093f
 
