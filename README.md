@@ -2,8 +2,11 @@ Project Handover: Trading Dashboard
 This document summarizes the dashboards developed using Looker Studio. It is designed to help the next person continue working with minimal disruption.
 
 📊 Looker Studio Dashboards
+
 Bot Dashboard
-Link: Bot Dashboard
+
+Link: https://lookerstudio.google.com/reporting/157892b8-84e0-44ee-bbbe-98dbc2008954
+
 Description:
 Contains the bot performance report across three pages:
 
